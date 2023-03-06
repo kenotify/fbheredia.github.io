@@ -1,0 +1,443 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+header *{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    box-shadow: 0px 1px 4px #ccc;
+    justify-content: center;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.4em;
+
+
+}
+
+header section{
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #e7e9eb;
+    font-size: 1.1em;
+    margin: 0px;
+   
+}
+
+h3{
+    margin: 0px;
+    margin-left: 50px;
+    
+}
+
+#h3Contacts{
+    margin: 0px;
+    font-size: large;
+    color: #7a7f83;
+}
+
+#sidehr{
+    width: 200px;
+    margin-left: 30px;
+}
+
+#leftside{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 350px;
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 3;
+    
+}
+
+#rightside{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 30px;
+    
+  
+    
+}
+
+#profile>ul{
+    padding: 15px;    
+    margin: 0px;
+    padding-left: 50px;
+}
+
+#profile ul>li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+#contacts{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: center;
+    align-content: center;
+}
+
+#contactList{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactList>ul{
+    padding: 0px;
+}
+
+#contactList ul>li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#contacts>ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#contacts ul>li{
+    min-width: 50px;
+    font-size: 0.6em;
+}
+
+#profile{
+    vertical-align: middle;
+}
+
+#shortcuts>ul{
+    padding: 10px;
+    margin:0px;
+    padding-left: 50px;
+}
+
+#shortcuts ul>li{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px ;
+    text-justify: auto;
+ 
+}
+
+main ul li>i{
+    font-size: 1.5em;
+}
+
+main ul li>span{
+    margin-left: 20px;
+}
+
+#fa-square{
+    font-size: 2.2em;
+}
+
+#user{
+    font-size: 2em;
+}
+
+footer>ul{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    padding-left: 30px;
+    width: 300px;
+}
+
+footer ul li>span{
+    margin: 1px;
+}
+
+#down{
+    margin:3px;
+}
+
+#stories{
+    background-color: #f9fcff;
+    width: 600px;
+    height: 300px;
+    border-radius: 2%;
+    margin-top: 23px;
+
+}
+
+#top ul li>span{
+    margin-left: 10px;
+}
+
+#top *{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    margin: 0px;
+}
+
+hr{
+    margin: 0px;
+}
+
+#post{
+    background-color: #f9fcff;
+    width: 600px;
+    height: 130px;
+    border-radius: 2%;
+    margin-top: 23px;
+}
+
+#postBelow *{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#postBelow>ul{
+    margin: 0px;
+}
+
+#postBelow ul>li{
+    margin: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+}
+
+#bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#bottom>div{
+    background-color: #7a7f83;
+    width: 100px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 14px;
+}
+
+#feed{
+    background-color: #f9fcff;
+    width: 600px;
+    height: 300px;
+    border-radius: 2%;
+    margin-top: 23px;
+}
+
+#userPost *{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#userPost>ul{
+    padding-left:20px;
+}
+
+#post div>span{
+    background-color:#F0F2F5 ;
+    border-radius: 30px;
+    width: 500px;
+    height: 40px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+nav{
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+    padding-left: 130px;
+    
+}
+
+nav #fbSec{
+    justify-content: start;
+}
+
+#fbSec ul>li{
+    font-size: 1.82em;
+}
+
+#fbSec{
+    width: 250px;
+ 
+}
+
+#settingSec{
+    width: 300px;
+    padding-right: 20px;
+
+}
+
+#fbSec input[type=text]{
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 250px ;
+    background-color: #eceef0;
+    font-size: medium;
+    margin: 10px;
+}
+
+#contacts ul>li:hover{
+    color:#7a7f83;
+    cursor: pointer;
+}
+
+#contactList ul>li:hover{
+    color: #aecbf7;
+    cursor: pointer;
+}
+
+#storyCon:hover{
+    background-color: #4267a0;
+    cursor: pointer;
+}
+
+#top ul>li:hover{
+    color: #4267a0;
+    cursor: pointer;
+}
+
+#photoBut:hover{
+    color: #3d9942;
+    cursor: pointer;
+}
+
+#liveBut:hover{
+    color: #c42d2d;
+    cursor: pointer;
+}
+
+#feelingBut:hover{
+    color: #f0ed3e;
+    cursor: pointer;
+}
+
+#profile ul>li:hover{
+    color: #1B74E4;
+    cursor: pointer;
+}
+
+#shortcuts ul>li:hover{
+    color: #1B74E4;
+    cursor: pointer;
+}
+
+#settingSec ul>li{
+    
+    border-radius: 50%;
+    height: 35px;
+    min-width: 45px;
+    background-color: #ebebe9;
+    justify-content:  center;
+    align-items: center;
+    margin: 4px;
+    
+}
+
+nav ul>li{
+    min-width: 120px;
+}
+
+nav ul>li:hover{
+    color: #1B74E4;
+    cursor: pointer;
+}
+
+#settingSec ul>li:hover{
+    color: #7a7f83;
+    cursor: pointer;
+    opacity: 0.7px;
+
+}
+
+#fbSec ul>li:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    nav{
+        display: none;
+    }
+
+    #rightside{
+        display:none;
+    }
+
+  
+}
+
+@media screen and (max-width: 1104px){
+    #fbSec input[type=text]{
+        border: 0px;
+        border-radius: 38%;
+        height: 40px;
+        width:40px ;
+       
+        
+    }
+
+    #leftside{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    center *{
+        width: 50%;
+       
+    }
+}
+
+
+
